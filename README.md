@@ -2,6 +2,8 @@
 
 "Butterflies" is my final project for a university course in Computer Graphics. It is a variation upon a particle cannon. Next to continuously exploding fireworks, I implemented the option to transform the firework particles into fluttering butterflies. There are also sound effects and background music. I made use of OpenGL, GLUT and SDL libraries.
 
+<img src="Butterflies.png" width="500">
+
 ### Functionality
 
 Upon running the executable, a window is created, in which five fireworks are constantly launching and exploding. This will go on forever, until the user presses ‘Esc’ or ‘q’, to quit the program. If the user presses ‘B’, the fireworks will change into butterflies. The butterflies will start flying in the direction of the (moving) mouse pointer. If the user moves the mouse faster, the butterflies will have higher velocity and vice versa. Pressing the left mouse button will cause the butterflies to fly closer. The right mouse button chases them away.
